@@ -6,7 +6,7 @@
     var linkText = "Back to my website";
     var linkHref = "http://petegoodman.com";
     var paraId = "lab-badge";
-    var css = "#lab-badge { position:fixed !important; left: auto !important; right:0 !important; top:auto !important; bottom:100px !important; padding:0 !important; margin:0 !important; background:none !important; }" +
+    var css = "#lab-badge { position:fixed !important; left: auto !important; right:0 !important; top:auto !important; bottom:100px !important; padding:0 !important; margin:0 !important; background:none !important; z-index: 99; }" +
             "#lab-badge a { display:block !important; position:relative !important; right: -112px !important; top:0 !important; background: rgba(255, 153, 0, 0.5) !important; border:3px solid #f90 !important; border-top-left-radius:30px !important; border-bottom-left-radius:30px !important; border-right:none !important; padding:8px 8px 8px 40px !important; color:#fff !important; font-family:Georgia, sans-serif !important; font-size:12px !important; line-height:1.5 !important; font-style:italic !important; font-weight:normal !important; text-decoration:none !important; transition:all 0.25s ease-in-out; }" +
             "#lab-badge span { display:block !important; position: absolute !important; left: 8px !important; top: 5px !important; color: #fff !important; font-size: 20px !important; line-height: 1 !important; letter-spacing: 1px !important; }" +
             "#lab-badge a:hover { right:0 !important; color:#fff !important; border-color:#f90 !important; background: rgba(255, 153, 0, 0.75) !important;  }";
