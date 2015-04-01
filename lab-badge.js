@@ -43,14 +43,14 @@
         a.href = linkHref;
         p.appendChild(a);
 
-        // create an anchor element for link
+        // create inner text
         span = d.createElement("span");
         span.innerHTML = "<>";
         a.appendChild(span);
 
         addCss();
 
-        // set up the onclick event to open new window
+        // set up the onclick event to open new window on click
         addEvent(a, "click", function(e) {
             window.open(linkHref);
             if (e) {
