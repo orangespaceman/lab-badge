@@ -1,7 +1,7 @@
 /*
  * Add a lab badge to a site
  */
-(function(){
+(function () {
 
     var linkText = "Back to my website";
     var linkHref = "http://petegoodman.com";
@@ -24,13 +24,13 @@
     }
 
     // init
-    function init() {
+    function init () {
 
         // elements
         var body, p, a, span,
             d = document;
 
-        body = d.getElementsByTagName('body')[0];
+        body = d.getElementsByTagName("body")[0];
 
         // create the paragraph container as a child of the BODY element
         p = body.appendChild(d.createElement("p"));
@@ -51,7 +51,7 @@
         addCss();
 
         // set up the onclick event to open new window
-        addEvent(a, 'click', function(e) {
+        addEvent(a, "click", function(e) {
             window.open(linkHref);
             if (e) {
                 e.preventDefault();
@@ -61,12 +61,12 @@
     }
 
     // add event - x browser
-    function addEvent(obj, evType, fn){
+    function addEvent (obj, evType, fn) {
         if (obj.addEventListener){
             obj.addEventListener(evType, fn, false);
             return true;
         } else if (obj.attachEvent){
-            var r = obj.attachEvent("on"+evType, fn);
+            var r = obj.attachEvent("on" + evType, fn);
             return r;
         } else {
             return false;
@@ -74,5 +74,5 @@
     }
 
     // init
-    addEvent(window, 'load', init);
+    addEvent(window, "load", init);
 })();
