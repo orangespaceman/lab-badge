@@ -11,7 +11,7 @@ Just save the `lab-badge.min.js` file from this repository into the project, and
     
 E.G.
 
-	<script src="http://thegingerbloke.github.io/lab-badge/lab-badge.min.js"></script>
+	<script src="https://thegingerbloke.github.io/lab-badge/lab-badge.min.js"></script>
 
 That's it. The script will automatically initialise when the page has finished loading.
 
